@@ -1,0 +1,206 @@
+{
+    "Warrior": [
+        {
+            "name": "Shield Bash",
+            "desc": "Deal moderate damage and stun the enemy for 1 turn.",
+            "mana": 5,
+            "effect": "warrior_shield_bash",
+            "class_restriction": "Warrior",
+            "spell_type": "damage",
+            "amount": 18
+        },
+        {
+            "name": "Battle Cry",
+            "desc": "Increase your attack and defense for 3 turns.",
+            "mana": 7,
+            "effect": "warrior_battle_cry",
+            "class_restriction": "Warrior",
+            "spell_type": "buff",
+            "amount": 3
+        },
+        {
+            "name": "Second Wind",
+            "desc": "Heal yourself for a portion of your max HP.",
+            "mana": 8,
+            "effect": "warrior_second_wind",
+            "class_restriction": "Warrior",
+            "spell_type": "buff",
+            "amount": 0.25
+        },
+        {
+            "name": "Taunt",
+            "desc": "Force the enemy to attack you for 2 turns, reducing damage taken.",
+            "mana": 4,
+            "effect": "warrior_taunt",
+            "class_restriction": "Warrior",
+            "spell_type": "debuff",
+            "amount": 2
+        },
+        {
+            "name": "Iron Wall",
+            "desc": "Greatly increase your defense for 2 turns.",
+            "mana": 6,
+            "effect": "warrior_iron_wall",
+            "class_restriction": "Warrior",
+            "spell_type": "buff",
+            "amount": 2
+        },
+        {
+            "name": "Cleave",
+            "desc": "Deal heavy damage to the enemy.",
+            "mana": 9,
+            "effect": "warrior_cleave",
+            "class_restriction": "Warrior",
+            "spell_type": "damage",
+            "amount": 30
+        },
+        {
+            "name": "Rally",
+            "desc": "Restore a small amount of HP to all party members.",
+            "mana": 10,
+            "effect": "warrior_rally",
+            "class_restriction": "Warrior",
+            "spell_type": "buff",
+            "amount": 12
+        }
+    ],
+    "Assassin": [
+        {
+            "name": "Shadow Strike",
+            "desc": "Deal high damage with a chance to crit.",
+            "mana": 5,
+            "effect": "assassin_shadow_strike",
+            "class_restriction": "Assassin",
+            "spell_type": "damage",
+            "amount": 22
+        },
+        {
+            "name": "Smoke Bomb",
+            "desc": "Increase your evasion and reduce enemy accuracy for 2 turns.",
+            "mana": 6,
+            "effect": "assassin_smoke_bomb",
+            "class_restriction": "Assassin",
+            "spell_type": "buff",
+            "amount": 2
+        },
+        {
+            "name": "Poison Blade",
+            "desc": "Deal damage and poison the enemy for 3 turns.",
+            "mana": 6,
+            "effect": "assassin_poison_blade",
+            "class_restriction": "Assassin",
+            "spell_type": "damage",
+            "amount": 14
+        },
+        {
+            "name": "Vanish",
+            "desc": "Become untargetable for 1 turn and heal a small amount.",
+            "mana": 7,
+            "effect": "assassin_vanish",
+            "class_restriction": "Assassin",
+            "spell_type": "buff",
+            "amount": 10
+        },
+        {
+            "name": "Throwing Stars",
+            "desc": "Deal moderate damage and has a chance to hit twice.",
+            "mana": 6,
+            "effect": "assassin_throwing_stars",
+            "class_restriction": "Assassin",
+            "spell_type": "damage",
+            "amount": 12
+        },
+        {
+            "name": "Mark for Death",
+            "desc": "Mark the enemy, increasing all damage they take for 2 turns.",
+            "mana": 7,
+            "effect": "assassin_mark_for_death",
+            "class_restriction": "Assassin",
+            "spell_type": "debuff",
+            "amount": 2
+        },
+        {
+            "name": "Adrenaline Rush",
+            "desc": "Restore some mana and increase your crit chance for 2 turns.",
+            "mana": 5,
+            "effect": "assassin_adrenaline_rush",
+            "class_restriction": "Assassin",
+            "spell_type": "buff",
+            "amount": 2
+        }
+    ],
+    "Mage": [
+        {
+            "name": "Fireball",
+            "desc": "Deal heavy fire damage to the enemy.",
+            "mana": 10,
+            "effect": "mage_fireball",
+            "class_restriction": "Mage",
+            "spell_type": "damage",
+            "amount": 28
+        },
+        {
+            "name": "Ice Barrier",
+            "desc": "Reduce all damage taken for 2 turns.",
+            "mana": 8,
+            "effect": "mage_ice_barrier",
+            "class_restriction": "Mage",
+            "spell_type": "buff",
+            "amount": 2
+        },
+        {
+            "name": "Arcane Surge",
+            "desc": "Restore some mana and increase spell damage for 3 turns.",
+            "mana": 7,
+            "effect": "mage_arcane_surge",
+            "class_restriction": "Mage",
+            "spell_type": "buff",
+            "amount": 3
+        },
+        {
+            "name": "Lightning Bolt",
+            "desc": "Deal lightning damage with a chance to stun.",
+            "mana": 12,
+            "effect": "mage_lightning_bolt",
+            "class_restriction": "Mage",
+            "spell_type": "damage",
+            "amount": 22
+        },
+        {
+            "name": "Heal",
+            "desc": "Restore a moderate amount of HP.",
+            "mana": 9,
+            "effect": "mage_heal",
+            "class_restriction": "Mage",
+            "spell_type": "buff",
+            "amount": 22
+        },
+        {
+            "name": "Mana Shield",
+            "desc": "Convert mana to a shield that absorbs damage for 2 turns.",
+            "mana": 10,
+            "effect": "mage_mana_shield",
+            "class_restriction": "Mage",
+            "spell_type": "buff",
+            "amount": 2
+        },
+        {
+            "name": "Frost Nova",
+            "desc": "Deal ice damage and reduce enemy attack for 2 turns.",
+            "mana": 11,
+            "effect": "mage_frost_nova",
+            "class_restriction": "Mage",
+            "spell_type": "damage",
+            "amount": 18
+        },
+        {
+            "name": "Haste",
+            "desc": "Increase your evasion and mana regen for 3 turns.",
+            "mana": 8,
+            "effect": "mage_haste",
+            "class_restriction": "Mage",
+            "spell_type": "buff",
+            "amount": 3
+        }
+    ]
+}

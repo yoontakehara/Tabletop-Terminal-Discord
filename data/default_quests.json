@@ -1,0 +1,107 @@
+[
+    {
+      "quest_name": "Slime Hunt",
+      "description": "Defeat 3 Slimes",
+      "target": "Slime",
+      "amount": 3,
+      "reward": "Elixir"
+    },
+    {
+      "quest_name": "Goblin Menace",
+      "description": "Defeat 2 Goblins",
+      "target": "Goblin",
+      "amount": 2,
+      "reward": "Steel Sword"
+    },
+    {
+      "quest_name": "Dragon Slayer",
+      "description": "Defeat 1 Dragon",
+      "target": "Dragon",
+      "amount": 1,
+      "reward": "Golden Apple"
+    },
+    {
+      "quest_name": "Wolf Pack",
+      "description": "Defeat 5 Wolves",
+      "target": "Wolf",
+      "amount": 5,
+      "reward": "Greater Potion"
+    },
+    {
+      "quest_name": "Orc Rampage",
+      "description": "Defeat 3 Orcs",
+      "target": "Orc",
+      "amount": 3,
+      "reward": "Battle Axe"
+    },
+    {
+      "quest_name": "Bandit Bounty",
+      "description": "Defeat 4 Bandits",
+      "target": "Bandit",
+      "amount": 4,
+      "reward": "Gold Coin"
+    },
+    {
+      "quest_name": "Troll Trouble",
+      "description": "Defeat 2 Trolls",
+      "target": "Troll",
+      "amount": 2,
+      "reward": "Revive Feather"
+    },
+    {
+      "quest_name": "Wyvern Watch",
+      "description": "Defeat 2 Wyverns",
+      "target": "Wyvern",
+      "amount": 2,
+      "reward": "Magic Scroll"
+    },
+    {
+      "quest_name": "Potion Collector",
+      "description": "Collect 5 Potions",
+      "target": "Potion",
+      "amount": 5,
+      "reward": "Mana Potion"
+    },
+    {
+      "quest_name": "Weapon Master",
+      "description": "Collect 3 different weapons",
+      "target": "Weapon",
+      "amount": 3,
+      "reward": "Steel Sword"
+    },
+    {
+      "quest_name": "Epic Adventurer",
+      "description": "Defeat 1 of each: Slime, Goblin, Wolf, Orc, Bandit",
+      "target": "Mixed",
+      "amount": 5,
+      "reward": "Phoenix Down"
+    },
+    {
+      "quest_name": "Treasure Hunter",
+      "description": "Open 3 Lootboxes",
+      "target": "Lootbox",
+      "amount": 3,
+      "reward": "Collector's Dice"
+    },
+    {
+      "quest_name": "Mage's Path",
+      "description": "Defeat 3 enemies using a staff or wand",
+      "target": "Magic",
+      "amount": 3,
+      "reward": "Enchanted Staff"
+    },
+    {
+      "quest_name": "Assassin's Test",
+      "description": "Defeat 3 enemies using a dagger or knife",
+      "target": "Dagger",
+      "amount": 3,
+      "reward": "Poisoned Dagger"
+    },
+    {
+      "quest_name": "Warrior's Trial",
+      "description": "Defeat 3 enemies using a sword or axe",
+      "target": "Sword",
+      "amount": 3,
+      "reward": "Greatsword"
+    }
+  ]
